@@ -16,7 +16,7 @@
 
 a {
      text-decoration: none;
-     color: #000;
+     color: #fff;
      font-size: 16px;
 }
 
@@ -25,6 +25,8 @@ a {
      align-items: center;
      justify-content: space-between;
      position: relative;
+     height: 70px;
+     background-color: rgb(50, 50, 50);
 }
 
 .logo {
@@ -188,6 +190,7 @@ small{
 }
 .btn{
 border: 3px solid #001122;
+background-color: rgb(39, 86, 86);
 padding: 15px 22px;
 font-size: 19px;
 transition: .7s;
@@ -310,8 +313,10 @@ border-radius: 20px;
           flex-direction: column;
      }
      nav {
-          height: 60px;
           background-color: transparent;
+     }
+     .navbar{
+          height: 55px;
      }
      .col-3{
           flex-basis: 100%;
@@ -365,10 +370,18 @@ border-radius: 20px;
      }
      .content .btn{
           width: 100%;
-          margin: 15px;
+          margin: auto;
      }
      .pic{
           background-size: cover;
-          margin-left: 10px;
+     }
+     .form-box{
+          height: 260px;
+          display: flex;
+         background-color: rgb(139, 194, 243);
+         flex-direction: column;
+         padding: 2vw 4vw;
+         width: 400px;
+         border-radius: 20px;
      }
 }
