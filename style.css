@@ -1,0 +1,374 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: cursive;
+     box-sizing: border-box;
+}
+
+.container {
+     height: 100vh;
+     width: 100%;
+     background: url(images/background.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+
+a {
+     text-decoration: none;
+     color: #000;
+     font-size: 16px;
+}
+
+.navbar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+}
+
+.logo {
+     margin-left: 50px;
+     font-size: 22px;
+     padding-top: 0px;
+     font-weight: 700;
+}
+
+nav {
+     height: 70px;
+     background-color: transparent;
+}
+
+nav ul {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+}
+
+nav ul li {
+     padding: 20px 22px;
+}
+
+.social-icons {
+     width: 30px;
+     height: 30px;
+     margin-top: 0px;
+     background-color: #000;
+     border-radius: 50%;
+}
+.container .row{
+     display: flex;
+     margin: 100px 180px;
+     padding: 70px;
+     justify-content: space-between;
+     align-items: center;
+}
+.row {
+     display: flex;
+     padding: 70px;
+     justify-content: space-between;
+}
+
+.col-3 {
+     flex-basis: 25%;
+}
+
+.col-3 h1 {
+     font-size: 80px;
+     color: #fff;
+     transition: .6s;
+}
+
+.col-3 h1:hover {
+     border-bottom: 2px solid #fff;
+}
+
+.ft-logo {
+     color: #000;
+     font-size: 28px;
+     font-weight: 600;
+}
+
+.col-3 h2 {
+     padding: 20px;
+     font-size: 22px;
+}
+
+.col-3 p {
+     font-size: 16px;
+     padding: 18px;
+}
+
+.link a {
+     color: rgb(127, 137, 172);
+     border-bottom: 1px solid #000;
+     font-size: 20px;
+}
+
+.mail-id {
+     /* border-bottom: 1px solid #000; */
+     padding-bottom: 0px;
+}
+
+.footer {
+     margin-top: 0px;
+     height: 40vh;
+}
+
+.footer .row {
+     margin-top: 0px;
+     padding: auto;
+}
+
+.col-3 {
+     text-align: center;
+}
+
+.gallery .row {
+     display: block;
+     margin: 0;
+     padding: 0;
+}
+
+.col4 {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+.col4 img {
+     flex-basis: 50%;
+     padding: 5px;
+     min-width: 50%;
+}
+
+.hero {
+     height: 80vh;
+     width: 100%;
+     background: url(images/story.jpg);
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+}
+small{
+     font-size: 86px;
+     color: #fff;
+     text-align: center;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.col2{
+     /* min-width: 400px; */
+     flex-basis: 48%;
+}
+.col2 h4{
+     padding: 20px;
+     font-size: 34px;
+}
+.col2 ul {
+     list-style-type: none;
+}
+.col2 h3{
+     padding: 10px;
+}
+.col2 p{
+     font-size: 16px;
+     padding: 10px;
+}
+.col2 ul li{
+     font-size: 15px;
+     font-weight: 300;
+     padding: 10px;
+}
+.btn-div{
+     text-align: center;
+     height: 80px;
+}
+.btn{
+border: 3px solid #001122;
+padding: 15px 22px;
+font-size: 19px;
+transition: .7s;
+font-weight: 400;
+border-radius: 20px;
+}
+.btn:hover{
+     background-color: rgb(30, 29, 29);
+     color: #fff;
+}
+.content{
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+}
+.content h1{
+     font-size: 80px;
+}
+.content p{
+     font-size: 18px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+}
+.form-box{
+     height: 300px;
+     display: flex;
+    background-color: rgb(139, 194, 243);
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 450px;
+    border-radius: 10px;
+}
+.input-box select{
+     width: 350px;
+     height: 40px;
+     outline: none;
+     margin: 50px auto;
+     border-radius: 10px;
+     padding: 10px;
+}
+.input-box select option{
+     font-size: 16px;
+     font-weight: 400;
+     padding: 10px;
+}
+.content-box{
+     padding-top: 20px;
+     padding-bottom: 10px;
+}
+.content-box h2{
+     font-size: 39px;
+     padding-top: 40px;
+}
+.content-box p{
+     padding-top: 30px;
+     font-size: 16px;
+}
+.pic{
+     width: 100%;
+     height: 50vh;
+     background-image: url(images/visit.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.eat .row{
+     padding: 0px;
+}
+.eat .row .col-3 h1{
+     font-size: 30px;
+}
+.eat-cont h2{
+     font-size: 32px;
+}
+.eat-cont p{
+     font-size: 20px;
+     padding: 10px;
+}
+.eat-cont{
+     padding: 30px;
+}
+.eat-cont h1{
+     font-size: 35px;
+     padding: 20px;
+}
+.eat-pic{
+     width: 100%;
+     height: 50vh;
+     background-image: url(images/pexels-elevate-1267320.jpg);
+     background-position: center;
+     background-size: cover;
+}
+.content h3{
+     font-size: 55px;
+}
+.content h5{
+     font-size: 29px;
+     padding: 100px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+     .container{
+          max-width: 600px;
+          background-position: center;
+          background-size: cover;
+          margin-left: 0;
+     }
+     .container .row{
+          margin: auto;
+          padding-top: 50px;
+          flex-direction: column;
+     }
+     nav {
+          height: 60px;
+          background-color: transparent;
+     }
+     .col-3{
+          flex-basis: 100%;
+          padding: 15px;
+     }
+     .col-3 h1{
+          font-size: 50px;
+     }
+     .row{
+          flex-direction: column;
+     }
+     nav ul li {
+          padding: 20px 5px;
+     }
+     .social-icons{
+          display: none;
+     }
+     .logo {
+          margin-left: 10px;
+          font-size: 20px;
+          font-weight: 500;
+     }
+     nav ul li a{
+          font-size: 13px;
+     }
+     .col2{
+          flex-basis: 100%;
+          margin-left: 0px;
+     }
+     .col2 h4{
+          padding: 10px;
+          font-size: 25px;
+          padding-top: 25px;
+     }
+     .col2 h3{
+          padding: 10px;
+          text-align: center;
+     }
+     .col2 p{
+          font-size: 14px;
+          padding: 5px;
+          padding-top: 13px;
+     }
+     .col2 ul li{
+          font-size: 16px;
+          padding: 10px;
+          text-align: center;
+     }
+     .content h1{
+          font-size: 50px;
+     }
+     .content .btn{
+          width: 100%;
+          margin: 15px;
+     }
+     .pic{
+          background-size: cover;
+          margin-left: 10px;
+     }
+}
